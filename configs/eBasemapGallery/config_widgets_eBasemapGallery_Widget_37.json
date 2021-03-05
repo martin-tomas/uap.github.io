@@ -1,0 +1,443 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_2017",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Letecké snímky světa"
+          },
+          {
+            "id": "VectorTile_7259",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Hybridní referenční vrstva",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/09ae11c4d22640bd8fcce6933cb045bf/resources/styles/root.json",
+            "itemId": "09ae11c4d22640bd8fcce6933cb045bf",
+            "isReference": true,
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Hybridní snímky",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/5dd3d4a61c304ce096e3df6f1ac30bf6/info/thumbnail/Jhbrid_thumb_b2.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "NatGeo_World_Map_2536",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa světa National Geographic"
+          }
+        ],
+        "title": "National Geographic",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/5e64dbc84be2485780e62162ac24322f/info/thumbnail/natgeo.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "VectorTile_6361",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Navigační mapa světa",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/2fba6cbc17c14d03bf6e318613a9761c/resources/styles/root.json",
+            "itemId": "2fba6cbc17c14d03bf6e318613a9761c",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Navigace",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/7a0d4d93329a4874926659ac99ac2f2d/info/thumbnail/navigation_thumb_b2.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "Ocean_Basemap_2089",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Oceány světa – podkladová mapa"
+          },
+          {
+            "id": "World_Ocean_Reference_1261",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Oceány světa – reference",
+            "isReference": true
+          }
+        ],
+        "title": "Oceány",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/2b74379044ad4919ad1e07abe83a1a3f/info/thumbnail/tempoceans.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "type": "OpenStreetMap",
+            "layerType": "OpenStreetMap",
+            "opacity": 1,
+            "visibility": true,
+            "id": "OpenStreetMap",
+            "title": "OpenStreetMap"
+          }
+        ],
+        "title": "OpenStreetMap",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/9ef61290c05b41b98a0b09c9e398ea45/info/thumbnail/temposm.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_2017",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Letecké snímky světa"
+          }
+        ],
+        "title": "Snímky",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/00a535c50df741a4a8bdd04a3b93ddf3/info/thumbnail/tempimagery.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_6611",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Letecké snímky světa"
+          },
+          {
+            "id": "World_Boundaries_and_Places_1145",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa světa s hranicemi a lokalitami",
+            "isReference": true
+          }
+        ],
+        "title": "Snímky s popisky",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/7b9f50f7f8d4445aa5752039fffb028d/info/thumbnail/imagery_labels.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Light_Gray_Base_1486",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Světle šedá podkladová mapa světa – plátno"
+          },
+          {
+            "id": "World_Light_Gray_Reference_8656",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Světle šedá mapa světa – reference",
+            "isReference": true
+          }
+        ],
+        "title": "Světle šedé plátno",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/b3734ad3b576432a84a11f47a7dc3716/info/thumbnail/light_gray_canvas.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "VectorTile_1970",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Světle šedá – základ",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/490a7399edd749acac823e7651234f0e/resources/styles/root.json",
+            "itemId": "490a7399edd749acac823e7651234f0e",
+            "visibility": true,
+            "opacity": 1
+          },
+          {
+            "id": "VectorTile_7117",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Světle šedá – reference",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/d01f725acec94af7a446ff3c2aa92044/resources/styles/root.json",
+            "itemId": "d01f725acec94af7a446ff3c2aa92044",
+            "isReference": true,
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Světle šedé plátno",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/d68744e8cb5c40c48391e94aa847c46e/info/thumbnail/lightgray_thumb_b2wm.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Terrain_Base_3",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Podkladová mapa světa se znázorněním terénu"
+          },
+          {
+            "id": "World_Reference_Overlay_5790",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Světový terén – reference",
+            "isReference": true
+          }
+        ],
+        "title": "Terén s popisky",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/751b549bcd7b465295a0e97b30923665/info/thumbnail/terrain_labels.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Hillshade_2428",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://servicesdev.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Stínování světa"
+          },
+          {
+            "id": "VectorTile_5522",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Podkladová mapa světa se znázorněním terénu",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/f1aba29059d741139b7cfa8fc1667be7/resources/styles/root.json",
+            "itemId": "f1aba29059d741139b7cfa8fc1667be7",
+            "visibility": true,
+            "opacity": 1
+          },
+          {
+            "id": "VectorTile_8118",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Světový terén – reference",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/de5913e2d4a14e5088c9ba4b081dce5c/resources/styles/root.json",
+            "itemId": "de5913e2d4a14e5088c9ba4b081dce5c",
+            "isReference": true,
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Terén s popisky",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/df5e451de4344a648165ce9c23158d0b/info/thumbnail/Terrain_Labels_Web_map.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Tmavě šedá podkladová mapa světa – plátno"
+          },
+          {
+            "id": "World_Dark_Gray_Reference_8618",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Tmavě šedá mapa světa – reference",
+            "isReference": true
+          }
+        ],
+        "title": "Tmavě šedé plátno",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/675f0173d74743faad4fcc4722310a33/info/thumbnail/DGCanvasBase.png",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "VectorTile_2846",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Tmavě šedá – základ",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/5d4e863794ad42509bfda2363635a894/resources/styles/root.json",
+            "itemId": "5d4e863794ad42509bfda2363635a894",
+            "visibility": true,
+            "opacity": 1
+          },
+          {
+            "id": "VectorTile_1645",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Tmavě šedá – reference",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/f5ab4996788c4663a61c56728667c6d3/resources/styles/root.json",
+            "itemId": "f5ab4996788c4663a61c56728667c6d3",
+            "isReference": true,
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Tmavě šedé plátno",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/945d22c3fc994cd2ab0c312d5147d4db/info/thumbnail/darkgray_thumb_b2wm.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Hillshade_3689",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Stínování světa"
+          },
+          {
+            "id": "VectorTile_6451",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Topografická mapa světa",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/d719b8cf0243444b96c28d19dc2048c4/resources/styles/root.json",
+            "itemId": "d719b8cf0243444b96c28d19dc2048c4",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Topografický",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/fa7321f900ce4a30a797a9fabe45c92e/info/thumbnail/topo_thumb_b2wm.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "defaultBasemap",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Topografická mapa světa"
+          }
+        ],
+        "title": "Topografický",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/ce24da2ba17b4a959ac7f2567990a2d6/info/thumbnail/topo_map_2.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "VectorTile_118",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Mapa světa s uliční sítí",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/8b98a0c84914426f846e1d23ee2115dc/resources/styles/root.json",
+            "itemId": "8b98a0c84914426f846e1d23ee2115dc",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Ulice",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/28e0bf87881340789a5320a8460fe98b/info/thumbnail/street_thumb_b2wm.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Street_Map_8421",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa světa s uliční sítí"
+          }
+        ],
+        "title": "Ulice",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/6f86c45c37a1445d9bb82454123d049e/info/thumbnail/world_street_map.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "VectorTile_1188",
+            "type": "VectorTileLayer",
+            "layerType": "VectorTileLayer",
+            "title": "Mapa světa s uliční sítí (noc)",
+            "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/143376c8182647ffae47c5112af2de1a/resources/styles/root.json",
+            "itemId": "143376c8182647ffae47c5112af2de1a",
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Ulice (noc)",
+        "thumbnailUrl": "//egis.uur.cz/portal/sharing/rest/content/items/5325e4e6c0ce49e0b5d41d8cb5fc59ac/info/thumbnail/streetnight_thumb_b2.jpg",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    ]
+  }
+}
